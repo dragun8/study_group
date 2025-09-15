@@ -33,3 +33,4 @@ for tc in range(1, 11):
     result = [] # result 빈 리스트를 만들고 
     inorder(nodes[1], result) # inorder 함수를 발동시킨다
     print(f"#{tc} {''.join(result)}")
+    
